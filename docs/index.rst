@@ -1,8 +1,8 @@
-====
-TODO_PROJECT_NAME
-====
+=======
+nbutils
+=======
 
-TODO_PROJECT_SHORT_DESC
+Python notebook utils
 
 Note:
 
@@ -17,11 +17,11 @@ Contents:
    API <api>
    developer
 
-* Web site: TODO_PROJECT_WEB_SITE_URL
-* Online documentation: TODO_PROJECT_ONLINE_DOCUMENTATION_URL
-* Source code: TODO_PROJECT_GITHUB_URL
-* Issue tracker: TODO_PROJECT_ISSUE_TRACKER_URL
-* TODO_PYTHON_PACKAGE_NAME on PyPI: TODO_PROJECT_PYPI_URL
+* Web site: http://www.jdhp.org/software_en.html#nbutils
+* Online documentation: http://nbutils.readthedocs.org
+* Source code: https://github.com/jeremiedecock/python-nbutils
+* Issue tracker: https://github.com/jeremiedecock/python-nbutils/issues
+* nbutils on PyPI: https://pypi.python.org/pypi/nbutils
 
 Indices and tables
 ==================
