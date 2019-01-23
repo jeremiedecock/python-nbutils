@@ -93,7 +93,11 @@ SCRIPTS = []
 #         'pyax12gui = pyax12.gui:run',
 #     ],
 #   }
-ENTRY_POINTS = {}
+ENTRY_POINTS = {
+  'console_scripts': [
+      'strip-nb-out = nbutils.strip_ipynb_output:main',
+  ],
+}
 
 
 README_FILE = 'README.rst'
