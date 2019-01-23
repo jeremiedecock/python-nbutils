@@ -2,16 +2,16 @@ AUTHOR_NAME="Jérémie DECOCK"
 AUTHOR_EMAIL="jd.jdhp@gmail.com"
 AUTHOR_WEB_SITE="www.jdhp.org"
 
-COPYRIGHT_NOTICE="Copyright (c) 2016 ${AUTHOR_NAME} (${AUTHOR_WEB_SITE})"
+COPYRIGHT_NOTICE="Copyright (c) 2019 ${AUTHOR_NAME} (${AUTHOR_WEB_SITE})"
 
-PROJECT_INITIAL_DATE="YYYY-MM-DD"          # TODO
-PROJECT_SHORT_DESC="TODO"                  # TODO one line
+PROJECT_INITIAL_DATE="2019-01-23"
+PROJECT_SHORT_DESC="Python notebook utils"
 
-PROJECT_NAME="TODO"                        # TODO e.g. PyAX-12
-PYTHON_PACKAGE_NAME="TODO"                 # TODO e.g. pyax12 (all in lower case and without special character)
+PROJECT_NAME="nbutils"
+PYTHON_PACKAGE_NAME="nbutils"
 
-PROJECT_GITHUB_ACCOUNT="jeremiedecock"     # TODO
-PROJECT_GITHUB_REPOSITORY_NAME="TODO"      # TODO
+PROJECT_GITHUB_ACCOUNT="jeremiedecock"
+PROJECT_GITHUB_REPOSITORY_NAME="python-nbutils"
 
 PROJECT_GITHUB_URL="https://github.com/${PROJECT_GITHUB_ACCOUNT}/${PROJECT_GITHUB_REPOSITORY_NAME}"
 PROJECT_ISSUE_TRACKER_URL="https://github.com/${PROJECT_GITHUB_ACCOUNT}/${PROJECT_GITHUB_REPOSITORY_NAME}/issues"
