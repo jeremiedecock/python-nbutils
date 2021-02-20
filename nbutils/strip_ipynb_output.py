@@ -76,10 +76,32 @@ def main():
                         if key in cell['metadata']:
                             del cell['metadata'][key]
 
+                    # Remove Google Colab Metadata
+
+                    if 'executionInfo' in cell['metadata']:
+                        del cell['metadata']['executionInfo']
+
+                    if 'id' in cell['metadata']:
+                        del cell['metadata']['id']
+
+                    if 'colab' in cell['metadata']:
+                        del cell['metadata']['colab']
+
+                    if 'outputId' in cell['metadata']:
+                        del cell['metadata']['outputId']
+
+                    #if cell['metadata'] == {}:
+                    #    del cell['metadata']
+                else:
+                    cell['metadata'] = {}
+
             # Remove widgets status
             if 'metadata' in notebook:
                 if 'widgets' in notebook['metadata']:
                     del notebook['metadata']['widgets']
+
+                if 'colab' in notebook['metadata']:
+                    del notebook['metadata']['colab']
 
             output_files[file_path] = notebook
 
